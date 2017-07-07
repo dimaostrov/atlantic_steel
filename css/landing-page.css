@@ -17,8 +17,27 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Nunito Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+
+}
+
+.nunito {
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+
+.army {
+    padding-top: 0.5em;
+    font-family: 'Black Ops One', cursive;
+}
+
+.shadow {
+    text-shadow: 2px 2px black;
+}
+
+.white {
+    color: white;
 }
 
 .topnav {
@@ -35,7 +54,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../img/weld1.jpeg) no-repeat center center;
     background-size: cover;
 }
 
@@ -98,13 +117,17 @@ h6 {
 }
 
 .content-section-b {
-    padding: 50px 0;
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    background-color: #021530;
+    background-size: cover;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
 }
 
 .section-heading {
     margin-bottom: 30px;
+    font-family: 'Black Ops One', cursive;
 }
 
 .section-heading-spacer {
@@ -167,4 +190,42 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+.metal-box{
+    background: url(../img/metalbox.jpe) 
 }
